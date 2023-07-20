@@ -1,0 +1,98 @@
+h3{
+    text-decoration-line: underline;
+}
+
+#ex1{
+    background-color: yellow;
+}
+ 
+#ex11{
+    color: red;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+
+
+#ex2 a {
+ text-decoration-line: none;
+ 
+
+
+}
+
+span{
+    text-decoration-line: line-through;
+    
+}
+
+#ex3 {
+
+    text-transform: uppercase;
+    text-align: center;
+ 
+}
+
+#mydiv #h2{
+    color: white;
+    text-align: center;  
+   
+}
+
+#mydiv {
+   
+  
+    background-color: blue;
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    translate: 500px;
+    transition: height 3s,width 3s,backgroud-color 3s;
+  
+    
+}
+
+#mydiv:hover{
+    height: 300px;
+    width: 300px;
+}
+  
+    
+
+#dog1{
+    width: 200px;
+        height: 200px;
+        translate: 50px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 50px;
+   
+  
+
+}
+
+
+
+
+
+   img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    
+    
+}
+img:hover{
+    opacity: 80%;
+}
+
+ table{
+    border-collapse: collapse;
+ }  
+td{
+    padding: 0%;
+}
+

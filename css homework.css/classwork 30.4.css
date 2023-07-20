@@ -1,0 +1,26 @@
+.mydiv{
+
+border :5px;
+border-style: dashed;
+border-top-color: red;
+border-left-color: purple;
+border-right-color: green;
+border-bottom-color: blue;
+width: 500px;
+
+}
+
+h1{
+    background-color: cornflowerblue;
+    color: green;
+    margin: 0%;
+}
+p{
+    background-color: coral;
+    margin: 0%;
+    color: yellow;
+}
+
+h1:hover{
+    color: black;
+}

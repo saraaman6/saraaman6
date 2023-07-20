@@ -1,0 +1,179 @@
+h3{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    color: red;
+}
+
+
+.ex1{
+    background-color: cyan;
+   width: 500px;
+   height: 250px;
+   background; 
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+
+
+
+
+
+
+.EX2{
+    display: flex;
+    flex-direction: column;
+    height:200PX;
+    width: 300PX;
+    background-color: cornflowerblue;
+    border: 2px solid;
+}
+.ex22{
+    height:50PX;
+    width: 50PX;
+    border: 2px solid;
+    
+
+}
+.xs{
+    width: 100PX;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    background:linear-gradient(to right ,rgb(98, 98, 219),rgb(98, 98, 219)) ;
+    
+}
+.s{
+    width: 160PX;
+    border-left: 0px;
+    border-bottom: 0px;
+    background:linear-gradient(to right ,rgb(58, 58, 133),rgb(58, 58, 133)) ;
+
+}
+.m{
+    width: 240PX;
+    border-left: 0px;
+    border-bottom: 0px;
+    background:linear-gradient(to right ,rgb(41, 41, 95),rgb(41, 41, 95)) ;
+
+}
+
+.l{
+    width: 300PX;
+    border-left: 0px;
+    border-bottom: 0px;
+    background:linear-gradient(to right ,rgb(27, 27, 61),rgb(27, 27, 61)) ;
+    
+
+}
+
+
+.galaxy1 {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    background-image: url(Galaxy.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.test{
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    width: 300px;
+   
+    
+}
+.planet1{
+height: 50px; 
+width: 50px;
+margin-right: 10px;
+
+
+}
+.planet2{
+    height: 100px; 
+    width: 100px;
+    margin-right: 10px;
+ 
+    
+}
+.planet3{
+
+   height:  150px; 
+    width: 150px;
+    margin-right: 10px;
+  
+    
+}
+.galaxy2{
+    height: 300px;
+    width: 700px;
+    background-image: url(Galaxy.jpg);
+}
+.planet11{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    translate: 500px 70px;
+
+}
+
+
+.planet22{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    translate: 250px 170px;
+
+    
+}
+.planet33{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    translate: 350px 10px;
+    
+}
+
+.ex5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+  
+ }
+
+.box1{
+ 
+    background-color: yellow;
+    grid-column: 1;
+    height: 100px;
+ 
+    
+   
+}
+.box2{
+    background-color:chartreuse;
+    grid-column: 2;
+    height: 100px;
+ 
+    
+}
+.box3{
+    
+    background-color:darkgreen;
+    grid-column: 1/3;
+
+   
+   
+    
+}
